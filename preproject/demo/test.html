@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Canvas Quiz Previewer</title>
+    <link rel="stylesheet" href="styles.css">
+    <h1 style="text-align:center">Canvas Quiz Previewer</h1>
+</head>
+
+<body>
+    <section class="container">
+        <section class="left">
+            <form action="/api" method="post" id="question_body">
+                <h3 style="text-align: center;">Quiz question here</h3>
+                <textarea  id="quiz_question_body" name="quiz_question_body" rows="10" cols="50" placeholder="enter your question body here">
+                    
+                </textarea>
+            </form>
+            <button form="question_body" value="preview">Preview</button>
+            <button form="question_body" value="export_tex">export tex</button>
+            <button form="question_body" value="export_txt">export txt</button>
+        </section>
+
+
+        <section class="right">
+            <article>
+                <h3 style="text-align: center;">question preview area</h4>
+            </article>
+        </section>
+    </section>
+</body>
+
+</html>

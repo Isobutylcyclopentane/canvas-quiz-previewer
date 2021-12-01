@@ -1,0 +1,27 @@
+.container {
+    width: 85%;
+    max-width: 1000px;
+    height: max-content;
+    background: white;
+    margin: auto;
+    padding: 10px;
+  }
+  
+.left {
+width: 50%;
+height: 500px;
+background: white;
+float: left;
+}
+
+.right {
+margin-left: 50%;
+height: 500px;
+background: white;
+}
+.textarea {
+display: block;
+margin-left: auto;
+margin-right: auto;
+
+}
